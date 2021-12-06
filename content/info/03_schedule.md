@@ -1,7 +1,7 @@
 ---
 title: Semester Schedule
 weight: 4
-
+draft: True
 ---
 
 ## M1: Week 35-39

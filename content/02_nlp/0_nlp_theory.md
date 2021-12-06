@@ -2,6 +2,7 @@
 title: "Natural Language Processing - Theory"
 weight: 1
 disableToc: true
+draft: true
 ---
 
 In this part you'll get a 100% code-free intro to (statistical) Natural Language Processing

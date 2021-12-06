@@ -34,13 +34,9 @@ These pieces of work can be seen as main references for data science using R and
 
 ### Data Science Cloud services 
 
-* Notebook bases:
-   * [Google Colab](https://colab.research.google.com): Googles popular service for editing, running & sharing Jupyter notebooks (Only Python Kernel, but R kernel can be accessed via some tricks)
-   * [Deepnote](https://deepnote.com): New popular online notebook service with good integration to other services (Python, R & more)
-   * [Kaggle](https://www.kaggle.com/): Also provides their own cloud-based service co create and run computational notebooks. Convenient, unlimited, but a bit slow (Pyhton, r ).
-* Instance based:
-   * [UCloud](https://cloud.sdu.dk): New cloud infrastructure provided by AAU, AU, SDU
-   * [AAU Strato](https://strato.claaudia.aau.dk/): AAU CLAUDIA infratructure. Very powerful, but access needs a bit of experience with working via terminal.
+* [Google Colab](https://colab.research.google.com): Googles popular service for editing, running & sharing Jupyter notebooks (Only Python Kernel, but R kernel can be accessed via some tricks)
+* [Deepnote](https://deepnote.com): New popular online notebook service with good integration to other services (Python, R & more)
+* [Kaggle](https://www.kaggle.com/): Also provides their own cloud-based service co create and run computational notebooks. Convenient, unlimited, but a bit slow (Pyhton, r ).
 
 ### Community
 

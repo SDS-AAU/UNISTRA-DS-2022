@@ -2,6 +2,7 @@
 title: "Network 2-Mode"
 weight: 3
 disableToc: true
+draft: true
 ---
 
 {{% notice tip %}} Use the tabs to access content. Theory part is general, R & Python application part language specific.
