@@ -56,10 +56,10 @@ body #chapter h1 {
     }
 }
 a {
-    color: #00bdf3;
+    color: #C27559;
 }
 a:hover {
-    color: #0082a7;
+    color: #5C200C;
 }
 pre {
     position: relative;
@@ -583,7 +583,7 @@ section.attachments.green .attachments-files {
 
 section.attachments.blue label {
     color: #fff;
-    background: #6AB0DE;
+    background: #D66240;
 }
 
 section.attachments.blue .attachments-files {
@@ -717,15 +717,15 @@ td {
 .button {
     background: #9c6fb6;
     color: #fff;
-    box-shadow: 0 3px 0 #00a5d4;
+    box-shadow: 0 3px 0 #D66240;
 }
 .button:hover {
-    background: #00a5d4;
-    box-shadow: 0 3px 0 #008db6;
+    background: #D66240;
+    box-shadow: 0 3px 0 #D66240;
     color: #fff;
 }
 .button:active {
-    box-shadow: 0 1px 0 #008db6;
+    box-shadow: 0 1px 0 #D66240;
 }
 .button-secondary {
     background: #F8B450;
@@ -976,7 +976,7 @@ td {
 }
 .lifecycle #body-inner .level-3 + ol {
     background: #f3f9fd;
-    border: 4px solid #3498DB;
+    border: 4px solid #D66240;
     color: #2980B9;
 }
 .lifecycle #body-inner .level-3 + ol h3 {
@@ -1119,7 +1119,7 @@ pre .copy-to-clipboard:hover {
     text-align: right;
 }
 #sidebar ul li.visited > a .read-icon {
-    color: #00bdf3;
+    color: #D66240;
     display: inline;
 }
 
