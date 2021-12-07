@@ -176,7 +176,7 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     }
 }
 #sidebar {
-    background-color: #FFC393;
+    background-color: #E1BBAC;
     position: fixed;
     top: 0;
     width: 300px;
@@ -195,7 +195,7 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     color: rgba(204, 204, 204, 0.6);
 }
 #sidebar hr {
-    border-bottom: 1px solid #FF7F0C;
+    border-bottom: 1px solid #C27559;
 }
 #sidebar a.padding {
     padding: 0 1rem;
@@ -220,7 +220,7 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     font-size: 80%;
 }
 #sidebar h5.parent a {
-    background: #EF5201;
+    background: #F8EBE8;
     color: #d9d9d9 !important;
 }
 #sidebar h5.active a {
@@ -279,7 +279,7 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     margin-top: 9px;
 }
 #sidebar ul.topics > li.parent, #sidebar ul.topics > li.active {
-    background: #EF5201;
+    background: #C27559;
     margin-left: -1rem;
     margin-right: -1rem;
     padding-left: 1rem;
