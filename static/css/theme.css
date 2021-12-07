@@ -173,7 +173,7 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     }
 }
 #sidebar {
-    background-color: #EBF0F1;
+    background-color: #FFC393;
     position: fixed;
     top: 0;
     width: 300px;
