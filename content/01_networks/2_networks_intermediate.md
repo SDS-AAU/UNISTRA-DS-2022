@@ -2,7 +2,7 @@
 title: "Intermediate Network Analysis"
 weight: 2
 disableToc: true
-draft: true
+draft: false
 ---
 
 {{% notice tip %}} Use the tabs to access content. Theory part is general, R & Python application part language specific.
@@ -30,7 +30,6 @@ This session introduces to slightly more advanced concepts in network analysis
 {{< /tab >}}
 
 
-  
 {{< tab name="Python Application - Intermediate Network Analysis">}}
 <div>
    <h3>Follow along</h3> 
