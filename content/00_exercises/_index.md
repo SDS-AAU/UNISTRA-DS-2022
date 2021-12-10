@@ -1,5 +1,5 @@
 ---
-title: Assignments
+title: Exercises
 weight: 1
 disableToc: true
 ---
