@@ -6,7 +6,7 @@
 <meta name=description content="Networks and NLP 2022">
 <meta name=author content="Roman Jurowetzki & Daniel Hain">
 <link rel=icon href=/UNISTRA-DS-2022/images/favicon.png type=image/png>
-<title>Literature & Resources :: Networks and NLP 2022</title>
+<title>Assignment 1 - Network Analysis :: Networks and NLP 2022</title>
 <link href=/UNISTRA-DS-2022/css/nucleus.css?1639136716 rel=stylesheet>
 <link href=/UNISTRA-DS-2022/css/fontawesome-all.min.css?1639136716 rel=stylesheet>
 <link href=/UNISTRA-DS-2022/css/hybrid.css?1639136716 rel=stylesheet>
@@ -20,7 +20,7 @@
 <script src=/UNISTRA-DS-2022/js/jquery-3.3.1.min.js?1639136716></script>
 <style>:root #header+#content>#left>#rlblock_left{display:none!important}</style>
 </head>
-<body data-url=/UNISTRA-DS-2022/info/04_litetrature/>
+<body data-url=/UNISTRA-DS-2022/00_assignments/assignment1/>
 <nav id=sidebar class=showVisitedLinks>
 <div id=header-wrapper>
 <div id=header>
@@ -41,13 +41,14 @@ Networks and NLP 2022
 </div>
 <div class=highlightable>
 <ul class=topics>
-<li data-nav-id=/UNISTRA-DS-2022/00_assignments/ title=Assignments class=dd-item>
+<li data-nav-id=/UNISTRA-DS-2022/00_assignments/ title=Assignments class="dd-item
+parent">
 <a href=/UNISTRA-DS-2022/00_assignments/>
 Assignments
 <i class="fas fa-check read-icon"></i>
 </a>
 <ul>
-<li data-nav-id=/UNISTRA-DS-2022/00_assignments/assignment1/ title="Assignment 1 - Network Analysis" class=dd-item>
+<li data-nav-id=/UNISTRA-DS-2022/00_assignments/assignment1/ title="Assignment 1 - Network Analysis" class="dd-item active">
 <a href=/UNISTRA-DS-2022/00_assignments/assignment1/>
 Assignment 1 - Network Analysis
 <i class="fas fa-check read-icon"></i>
@@ -55,8 +56,7 @@ Assignment 1 - Network Analysis
 </li>
 </ul>
 </li>
-<li data-nav-id=/UNISTRA-DS-2022/info/ title="Info, Schedule & Co" class="dd-item
-parent">
+<li data-nav-id=/UNISTRA-DS-2022/info/ title="Info, Schedule & Co" class=dd-item>
 <a href=/UNISTRA-DS-2022/info/>
 Info, Schedule & Co
 <i class="fas fa-check read-icon"></i>
@@ -68,7 +68,7 @@ Infrastructure
 <i class="fas fa-check read-icon"></i>
 </a>
 </li>
-<li data-nav-id=/UNISTRA-DS-2022/info/04_litetrature/ title="Literature & Resources" class="dd-item active">
+<li data-nav-id=/UNISTRA-DS-2022/info/04_litetrature/ title="Literature & Resources" class=dd-item>
 <a href=/UNISTRA-DS-2022/info/04_litetrature/>
 Literature & Resources
 <i class="fas fa-check read-icon"></i>
@@ -122,39 +122,9 @@ Intermediate Network Analysis
 <i class="fas fa-bars"></i>
 </a>
 </span>
-<span id=toc-menu><i class="fas fa-list-alt"></i></span>
 <span class=links>
-<a href=/UNISTRA-DS-2022/>Network Analysis and NLP 2022</a> > <a href=/UNISTRA-DS-2022/info/>Info, Schedule & Co</a> > Literature & Resources
-          
-        
-  
+<a href=/UNISTRA-DS-2022/>Network Analysis and NLP 2022</a> > <a href=/UNISTRA-DS-2022/00_assignments/>Assignments</a> > Assignment 1 - Network Analysis
 </span>
-</div>
-<div class=progress>
-<div class=wrapper>
-<nav id=TableOfContents>
-<ul>
-<li><a href=#main-literature>Main Literature</a>
-<ul>
-<li><a href=#r>R</a></li>
-<li><a href=#python>Python</a></li>
-</ul>
-</li>
-<li><a href=#supplementary-literature>Supplementary literature</a>
-<ul>
-<li><a href=#r-1>R</a></li>
-</ul>
-</li>
-<li><a href=#further-ressources>Further Ressources</a>
-<ul>
-<li><a href=#data-science-cloud-services>Data Science Cloud services</a></li>
-<li><a href=#community>Community</a></li>
-<li><a href=#tools--helpers>Tools & Helpers</a></li>
-</ul>
-</li>
-</ul>
-</nav>
-</div>
 </div>
 </div>
 </div>
@@ -162,52 +132,83 @@ Intermediate Network Analysis
 </div>
 <div id=body-inner>
 <h1>
-Literature & Resources
+Assignment 1 - Network Analysis
 </h1>
-<p>While this course does not come with a list of mandatory readings, we will often refer to some central resources in R and python, which for the most part can always be accessed in a free and updated online version. We generally recommend you to use these amazing resources for problem-solving and further self-study on the topic.</p>
-<h2 id=main-literature>Main Literature</h2>
-<p>These pieces of work can be seen as main references for data science using R and Python. We will frequently refer to selected chapters for further study.</p>
-<h3 id=r>R</h3>
+<h2 id=introduction>Introduction</h2>
 <ul>
-<li>Wickham, H., & Grolemund, G. (2016). R for data science: import, tidy, transform, visualize, and model data. O&rsquo;Reilly Media, Inc. <a href=https://r4ds.had.co.nz/ target=_blank>Online available here</a></li>
-<li>Baumer, B., Kaplan, D. & Horton, N. (2020) Modern Data Science with R (2nd Ed.). CRC Press <a href=https://beanumber.github.io/mdsr2e/ target=_blank>Online available here</a></li>
-<li>Kuhn, M., Silge, J. (2020) Tidy Modeling with R <a href=https://www.tmwr.org/ target=_blank>Online available here</a></li>
+<li>In th first Part 2, you will replicate a well known network analysis, with different data and some twists.</li>
+<li>Data: The data is to be found at: <a href=https://github.com/SDS-AAU/SDS-master/tree/master/00_data/network_krackhard target=_blank>https://github.com/SDS-AAU/SDS-master/tree/master/00_data/network_krackhard</a> (Hint: You neet to download the raw data)</li>
 </ul>
-<h3 id=python>Python</h3>
+<h2 id=data-what-do-i-get>Data: What do I get?</h2>
+<h3 id=background>Background</h3>
+<p>Let the fun begin. You will analyze network datacollected from the managers of a high-tec company. This dataset, originating from the paper below, is widely used in research on organizational networks. Time to give it a shot as well.
+Krackhardt D. (1987). Cognitive social structures. Social Networks, 9, 104-134. The company manufactured high-tech equipment on the west coast of the United States and had just over 100 employees with 21 managers. Each manager was asked to whom do you go to for advice and who is your friend, to whom do you report was taken from company documents.
+Description</p>
+<p>The dataset includes 4 files - 3xKrack-High-Tec and 1x High-Tec-Attributes. Krack-High-Tec includes the following three 21x3 text matrices:</p>
 <ul>
-<li>VanderPlas, J. (2016). Python data science handbook: Essential tools for working with data. O&rsquo;Reilly Media, Inc. <a href=https://jakevdp.github.io/PythonDataScienceHandbook/index.html target=_blank>Online available here</a></li>
+<li>ADVICE, directed, binary</li>
+<li>FRIENDSHIP, directed, binary</li>
+<li>REPORTS_TO, directed, binary</li>
 </ul>
-<h2 id=supplementary-literature>Supplementary literature</h2>
-<h3 id=r-1>R</h3>
+<p>Column 1 contains the ID of the ego (from where the edge starts), and column 2 the alter (to which the edge goes). Column 3 indicates the presence (=1) or absence (=0) of an edge.</p>
+<p>High-Tec-Attributes includes one 21x4 valued matrix.</p>
 <ul>
-<li><a href=https://bookdown.org/yihui/rmarkdown/ target=_blank>R Markdown: The Definitive Guide</a></li>
-<li><a href=https://csgillespie.github.io/efficientR/ target=_blank>Efficient R Programming</a></li>
-<li><a href=https://dcl-prog.stanford.edu/ target=_blank>Functional Programming in R (Stanford, Hadley)</a></li>
-<li><a href=https://smithjd.github.io/sql-pet/ target=_blank>Exploring Enterprise Databases with R</a></li>
+<li>ID: Numeric ID of the manager</li>
+<li>AGE: The managers age (in years)</li>
+<li>TENURE: The length of service or tenure (in years)</li>
+<li>LEVEL: The level in the corporate hierarchy (coded 1,2 and 3; 1 = CEO, 2 = Vice President, 3 = manager)</li>
+<li>DEPT: The department (coded 1,2,3,4 with the CEO in department 0, ie not in a department)</li>
 </ul>
-<h2 id=further-ressources>Further Ressources</h2>
-<h3 id=data-science-cloud-services>Data Science Cloud services</h3>
+<h2 id=tasks>Tasks</h2>
+<h3 id=1-create-a-network>1. Create a network</h3>
 <ul>
-<li><a href=https://colab.research.google.com target=_blank>Google Colab</a>: Googles popular service for editing, running & sharing Jupyter notebooks (Only Python Kernel, but R kernel can be accessed via some tricks)</li>
-<li><a href=https://deepnote.com target=_blank>Deepnote</a>: New popular online notebook service with good integration to other services (Python, R & more)</li>
-<li><a href=https://www.kaggle.com/ target=_blank>Kaggle</a>: Also provides their own cloud-based service co create and run computational notebooks. Convenient, unlimited, but a bit slow (Pyhton, r ).</li>
+<li>Generate network objects for the companies organizational structure (reports to), friendship, advice</li>
+<li>This networks are generated from the corresponding edgelists</li>
+<li>Also attach node characteristics from the corresponding nodelist</li>
 </ul>
-<h3 id=community>Community</h3>
+<h3 id=2-analysis>2. Analysis</h3>
+<p>Make a little analysis on:</p>
+<p>A: Network level characteristics. Find the overal network level of:</p>
 <ul>
-<li><a href=https://www.kaggle.com/ target=_blank>Kaggle</a>: Crowdsourced data science challanges. Nowadays also provides a vivid community where you find datasets, notebooks for all kind of data science exercises.</li>
+<li>Density</li>
+<li>Transistivity (Clustering Coefficient)</li>
+<li>Reciprocity</li>
 </ul>
-<h3 id=tools--helpers>Tools & Helpers</h3>
+<p>&mldr; for the different networks. Describe and interpret the results. Answer the following questions:</p>
 <ul>
-<li><a href="https://colab.research.google.com/github/SDS-AAU/M1-2019/blob/master/notebooks/converter_rmd_to_jupyter.ipynb#offline=true&sandboxMode=true" target=_blank>rmd to ipynb converter</a></li>
-<li><a href=https://htmtopdf.herokuapp.com/ipynbviewer/ target=_blank>ipynb to pdf converter</a></li>
+<li>Are relationships like friendship and advice giving usually reciprocal?</li>
+<li>Are friends of your friends also your friends?</li>
+<li>Are the employees generally more likely to be in a friendship or advice-seeking relationship?</li>
+</ul>
+<p>B: Node level characteristics: Likewise, find out:</p>
+<ul>
+<li>Who is most popular in the networks. Who is the most wanted friend, and advice giver?</li>
+<li>Are managers in higher hirarchy more popular as friend, and advice giver?</li>
+</ul>
+<p>C: Relational Characteristics: Answer the following questions:</p>
+<ul>
+<li>Are managers from the same 1. department, or on the same 2. hirarchy, 3. age, or 4. tenuere more likely to become friends or give advice? (hint: assortiativity related)</li>
+<li>Are friends more likely to give each others advice?</li>
+</ul>
+<h3 id=3-visualization>3. Visualization</h3>
+<p>Everything goes. Show us some pretty and informative plots. Choose what to plot, and how, on your own. Interpret the results and share some insights.</p>
+<p><strong>Submission as PDF (notebook and output)</strong></p>
+<div style=position:relative;padding-bottom:56.25%;height:0>
+<iframe src=https://www.loom.com/embed/9d1add222dbb4ec6a6fe91d197eaf7db frameborder=0 webkitallowfullscreen mozallowfullscreen allowfullscreen style=position:absolute;top:0;left:0;width:100%;height:100%></iframe>
+</div>
+<p><strong>Submission: Thursday 7.10.2021 23:59:00. <a href=https://app.peergrade.io/join/DDBF6Z target=_blank>Peergrade.io</a></strong></p>
+<h2 id=solutions>Solutions</h2>
+<ul>
+<li>R team <a href=https://sds-aau.github.io/SDS-master/M2/exercises/nw_assignment_solution.nb.html target=_blank>:::: HERE ::::</a></li>
+<li>Py team <a href=https://colab.research.google.com/github/SDS-AAU/SDS-master/blob/master/M2/notebooks/Solution_M2_A1.ipynb target=_blank>:::: HERE ::::</a></li>
 </ul>
 <footer class=footline>
 </footer>
 </div>
 </div>
 <div id=navigation>
-<a class="nav nav-prev" href=/UNISTRA-DS-2022/info/01_infrastructure/ title=Infrastructure> <i class="fa fa-chevron-left"></i></a>
-<a class="nav nav-next" href=/UNISTRA-DS-2022/01_networks/ title="Network Analysis" style=margin-right:0><i class="fa fa-chevron-right"></i></a>
+<a class="nav nav-prev" href=/UNISTRA-DS-2022/00_assignments/ title=Assignments> <i class="fa fa-chevron-left"></i></a>
+<a class="nav nav-next" href=/UNISTRA-DS-2022/info/ title="Info, Schedule & Co" style=margin-right:0><i class="fa fa-chevron-right"></i></a>
 </div>
 </section>
 <div style=left:-1000px;overflow:scroll;position:absolute;top:-1000px;border:none;box-sizing:content-box;height:200px;margin:0;padding:0;width:200px>
