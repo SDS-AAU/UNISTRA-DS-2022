@@ -2,7 +2,7 @@
 title: "Bonus - Network Visualization"
 weight: 3
 disableToc: true
-draft: true
+draft: false
 ---
 
 
