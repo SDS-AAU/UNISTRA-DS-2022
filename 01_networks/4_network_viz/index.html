@@ -6,7 +6,7 @@
 <meta name=description content="Networks and NLP 2022">
 <meta name=author content="Roman Jurowetzki & Daniel Hain">
 <link rel=icon href=/UNISTRA-DS-2022/images/favicon.png type=image/png>
-<title>Infrastructure :: Networks and NLP 2022</title>
+<title>Bonus - Network Visualization :: Networks and NLP 2022</title>
 <link href=/UNISTRA-DS-2022/css/nucleus.css?1639493207 rel=stylesheet>
 <link href=/UNISTRA-DS-2022/css/fontawesome-all.min.css?1639493207 rel=stylesheet>
 <link href=/UNISTRA-DS-2022/css/hybrid.css?1639493207 rel=stylesheet>
@@ -20,7 +20,7 @@
 <script src=/UNISTRA-DS-2022/js/jquery-3.3.1.min.js?1639493207></script>
 <style>:root #header+#content>#left>#rlblock_left{display:none!important}</style>
 </head>
-<body data-url=/UNISTRA-DS-2022/info/01_infrastructure/>
+<body data-url=/UNISTRA-DS-2022/01_networks/4_network_viz/>
 <nav id=sidebar class=showVisitedLinks>
 <div id=header-wrapper>
 <div id=header>
@@ -55,14 +55,13 @@ Exercise 1 - Network Analysis
 </li>
 </ul>
 </li>
-<li data-nav-id=/UNISTRA-DS-2022/info/ title="Info, Schedule & Co" class="dd-item
-parent">
+<li data-nav-id=/UNISTRA-DS-2022/info/ title="Info, Schedule & Co" class=dd-item>
 <a href=/UNISTRA-DS-2022/info/>
 Info, Schedule & Co
 <i class="fas fa-check read-icon"></i>
 </a>
 <ul>
-<li data-nav-id=/UNISTRA-DS-2022/info/01_infrastructure/ title=Infrastructure class="dd-item active">
+<li data-nav-id=/UNISTRA-DS-2022/info/01_infrastructure/ title=Infrastructure class=dd-item>
 <a href=/UNISTRA-DS-2022/info/01_infrastructure/>
 Infrastructure
 <i class="fas fa-check read-icon"></i>
@@ -76,7 +75,8 @@ Literature & Resources
 </li>
 </ul>
 </li>
-<li data-nav-id=/UNISTRA-DS-2022/01_networks/ title="Network Analysis" class=dd-item>
+<li data-nav-id=/UNISTRA-DS-2022/01_networks/ title="Network Analysis" class="dd-item
+parent">
 <a href=/UNISTRA-DS-2022/01_networks/>
 Network Analysis
 <i class="fas fa-check read-icon"></i>
@@ -94,7 +94,7 @@ Intermediate Network Analysis
 <i class="fas fa-check read-icon"></i>
 </a>
 </li>
-<li data-nav-id=/UNISTRA-DS-2022/01_networks/4_network_viz/ title="Bonus - Network Visualization" class=dd-item>
+<li data-nav-id=/UNISTRA-DS-2022/01_networks/4_network_viz/ title="Bonus - Network Visualization" class="dd-item active">
 <a href=/UNISTRA-DS-2022/01_networks/4_network_viz/>
 Bonus - Network Visualization
 <i class="fas fa-check read-icon"></i>
@@ -134,19 +134,9 @@ Network 2-Mode
 <i class="fas fa-bars"></i>
 </a>
 </span>
-<span id=toc-menu><i class="fas fa-list-alt"></i></span>
 <span class=links>
-<a href=/UNISTRA-DS-2022/>Network Analysis and NLP 2022</a> > <a href=/UNISTRA-DS-2022/info/>Info, Schedule & Co</a> > Infrastructure
+<a href=/UNISTRA-DS-2022/>Network Analysis and NLP 2022</a> > <a href=/UNISTRA-DS-2022/01_networks/>Network Analysis</a> > Bonus - Network Visualization
 </span>
-</div>
-<div class=progress>
-<div class=wrapper>
-<nav id=TableOfContents>
-<ul>
-<li><a href=#material>Material</a></li>
-</ul>
-</nav>
-</div>
 </div>
 </div>
 </div>
@@ -154,22 +144,43 @@ Network 2-Mode
 </div>
 <div id=body-inner>
 <h1>
-Infrastructure
+Bonus - Network Visualization
 </h1>
-<h2 id=material>Material</h2>
+<p>This session introduces to multimodel natwork analysis concepts</p>
+<div class=tab-panel>
+<div class=tab-nav>
+<button data-tab-item="R Application - Ventwork Visualization" data-tab-group=default class="tab-nav-button btn active" onclick="switchTab('default','R Application - Ventwork Visualization')">R Application - Ventwork Visualization</button>
+</div>
+<div class=tab-content>
+<div data-tab-item="R Application - Ventwork Visualization" data-tab-group=default class="tab-item active">
+<div>
+<h3>Follow along</h3>
 <ul>
-<li><a href=https://www.datacamp.com target=_blank>Datacamp</a>: Get access to all the Datacamp premium content for free to facilitate your data science journey.</li>
-<li><a href=https://github.com/ target=_blank>Github</a> Provides internet hosting for software development and version control using Git. It offers the distributed version control and source code management (SCM) functionality of Git, plus its own features. It is also commonly used to host open-source projects, including data science projects. If you do not have it already, you are advice to create an account to manage and showcase your work during this semester. A brief introduction into the main functionalists can be found <a href=https://guides.github.com/activities/hello-world/ target=_blank>here</a>.</li>
-</ul>
-<blockquote>
-</blockquote>
+<li>
+<i class="fas fa-laptop-code"></i>
+<a href=https://sds-aau.github.io/SDS-master/M2/notebooks/network_analysis_application_visualization.nb.html target=_blank>HTML Notebook</a> </li> Notebook</a> </li>
+<li>
+<i class="fas fa-laptop-code"></i>
+<a href=https://colab.research.google.com/github/SDS-AAU/SDS-master/blob/master/M2/notebooks/network_analysis_application_visualization.ipynb target=_blank>Colab Notebook</a> </li>
+<h2>Video 1: Node and Edge Visualization</h2>
+<div style=position:relative;padding-bottom:56.25%;height:0>
+<iframe src=https://www.loom.com/embed/a76f6ef6a09e4c8280e306c5458ca1bd frameborder=0 webkitallowfullscreen mozallowfullscreen allowfullscreen style=position:absolute;top:0;left:0;width:100%;height:100%></iframe>
+</div>
+<h2>Video 2: Graph Layouts</h2>
+<div style=position:relative;padding-bottom:56.25%;height:0>
+<iframe src=https://www.loom.com/embed/91375f4f85df4ce2b6f199f6b52390c2 frameborder=0 webkitallowfullscreen mozallowfullscreen allowfullscreen style=position:absolute;top:0;left:0;width:100%;height:100%></iframe>
+</div>
+</div>
+</div>
+</div>
+</div>
 <footer class=footline>
 </footer>
 </div>
 </div>
 <div id=navigation>
-<a class="nav nav-prev" href=/UNISTRA-DS-2022/info/ title="Info, Schedule & Co"> <i class="fa fa-chevron-left"></i></a>
-<a class="nav nav-next" href=/UNISTRA-DS-2022/info/04_litetrature/ title="Literature & Resources" style=margin-right:0><i class="fa fa-chevron-right"></i></a>
+<a class="nav nav-prev" href=/UNISTRA-DS-2022/01_networks/2_networks_intermediate/ title="Intermediate Network Analysis"> <i class="fa fa-chevron-left"></i></a>
+<a class="nav nav-next" href=/UNISTRA-DS-2022/01_networks/3_networks_2mode/ title="Network 2-Mode" style=margin-right:0><i class="fa fa-chevron-right"></i></a>
 </div>
 </section>
 <div style=left:-1000px;overflow:scroll;position:absolute;top:-1000px;border:none;box-sizing:content-box;height:200px;margin:0;padding:0;width:200px>
