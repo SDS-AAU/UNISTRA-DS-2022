@@ -74,13 +74,8 @@ C: Relational Characteristics: Answer the following questions:
 Everything goes. Show us some pretty and informative plots. Choose what to plot, and how, on your own. Interpret the results and share some insights.
 
 
-**Submission as PDF (notebook and output)** 
 
-{{< loom 9d1add222dbb4ec6a6fe91d197eaf7db >}}
-
-**Submission: Thursday 7.10.2021 23:59:00. [Peergrade.io](https://app.peergrade.io/join/DDBF6Z)**
-
-
+<!---
 
 ## Solutions
 
@@ -88,7 +83,7 @@ Everything goes. Show us some pretty and informative plots. Choose what to plot,
 * R team [:::: HERE ::::](https://sds-aau.github.io/SDS-master/M2/exercises/nw_assignment_solution.nb.html)
 * Py team [:::: HERE ::::](https://colab.research.google.com/github/SDS-AAU/SDS-master/blob/master/M2/notebooks/Solution_M2_A1.ipynb)
      
-
+--->
 
 
 
