@@ -8,7 +8,7 @@ summary: "The team of lecturers."
 
 ### [Daniel S. Hain](https://vbn.aau.dk/en/persons/126725)
 
-![dsh](/images/dsh_head.png)
+![dsh](https://sds-aau.github.io/UNISTRA-DS-2022/images/dsh_head.png)
 
 Associate Professor in Innovation Studies and Data Science at Aalborg University. 
 E-mail: [roman@business.aau.dk]((mailto:dsh@business.aau.dk))
@@ -22,7 +22,7 @@ As part of the AI:DK project, he coordinates and leads AI proof-of-concept proje
 
 ---
 
-![rj](images/rj_head.png)
+![rj](https://sds-aau.github.io/UNISTRA-DS-2022/images/rj_head.png)
 
 ### [Roman Jurowetzki](https://vbn.aau.dk/en/persons/125497)
 
