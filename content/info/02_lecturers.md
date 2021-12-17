@@ -9,7 +9,7 @@ summary: "The team of lecturers."
 ### [Daniel S. Hain](https://vbn.aau.dk/en/persons/126725)
 
 Associate Professor in Innovation Studies and Data Science at Aalborg University. 
-E-mail: [roman@business.aau.dk]((mailto:roman@business.aau.dk))
+E-mail: [roman@business.aau.dk]((mailto:dsh@business.aau.dk))
 
 Daniel is an Associate Professor in Data Science & Innovation Economics at the Aalborg University Business School, where he leads the Data Science research track at the AI:Growth lab, and coordinates teaching at the Social Data Science (SDS) master specialization. His research is dedicated to the development and application of data-driven methods to map, understand, and predict technological change, and its causes and consequences for socioeconomic systems on various levels of aggregation. His current contextual focus is the dynamics of AI research and industry. 
 
