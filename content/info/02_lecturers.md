@@ -22,7 +22,7 @@ As part of the AI:DK project, he coordinates and leads AI proof-of-concept proje
 
 ---
 
-![rj](https://sds-aau.github.io/UNISTRA-DS-2022/images/rj_head.png)
+![rj](https://sds-aau.github.io/UNISTRA-DS-2022/images/rj_head.jpeg)
 
 ### [Roman Jurowetzki](https://vbn.aau.dk/en/persons/125497)
 
