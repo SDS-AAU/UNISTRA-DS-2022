@@ -6,7 +6,7 @@
 <meta name=description content="Networks and NLP 2022">
 <meta name=author content="Roman Jurowetzki & Daniel Hain">
 <link rel=icon href=/UNISTRA-DS-2022/images/favicon.png type=image/png>
-<title>Basics Network Analysis :: Networks and NLP 2022</title>
+<title>Lecturers :: Networks and NLP 2022</title>
 <link href=/UNISTRA-DS-2022/css/nucleus.css?1639730708 rel=stylesheet>
 <link href=/UNISTRA-DS-2022/css/fontawesome-all.min.css?1639730708 rel=stylesheet>
 <link href=/UNISTRA-DS-2022/css/hybrid.css?1639730708 rel=stylesheet>
@@ -20,7 +20,7 @@
 <script src=/UNISTRA-DS-2022/js/jquery-3.3.1.min.js?1639730708></script>
 <style>:root #header+#content>#left>#rlblock_left{display:none!important}</style>
 </head>
-<body data-url=/UNISTRA-DS-2022/01_networks/1_networks/>
+<body data-url=/UNISTRA-DS-2022/info/02_lecturers/>
 <nav id=sidebar class=showVisitedLinks>
 <div id=header-wrapper>
 <div id=header>
@@ -55,7 +55,8 @@ Exercise 1 - Network Analysis
 </li>
 </ul>
 </li>
-<li data-nav-id=/UNISTRA-DS-2022/info/ title="Info, Schedule & Co" class=dd-item>
+<li data-nav-id=/UNISTRA-DS-2022/info/ title="Info, Schedule & Co" class="dd-item
+parent">
 <a href=/UNISTRA-DS-2022/info/>
 Info, Schedule & Co
 <i class="fas fa-check read-icon"></i>
@@ -67,7 +68,7 @@ Infrastructure
 <i class="fas fa-check read-icon"></i>
 </a>
 </li>
-<li data-nav-id=/UNISTRA-DS-2022/info/02_lecturers/ title=Lecturers class=dd-item>
+<li data-nav-id=/UNISTRA-DS-2022/info/02_lecturers/ title=Lecturers class="dd-item active">
 <a href=/UNISTRA-DS-2022/info/02_lecturers/>
 Lecturers
 <i class="fas fa-check read-icon"></i>
@@ -81,14 +82,13 @@ Literature & Resources
 </li>
 </ul>
 </li>
-<li data-nav-id=/UNISTRA-DS-2022/01_networks/ title="Network Analysis" class="dd-item
-parent">
+<li data-nav-id=/UNISTRA-DS-2022/01_networks/ title="Network Analysis" class=dd-item>
 <a href=/UNISTRA-DS-2022/01_networks/>
 Network Analysis
 <i class="fas fa-check read-icon"></i>
 </a>
 <ul>
-<li data-nav-id=/UNISTRA-DS-2022/01_networks/1_networks/ title="Basics Network Analysis" class="dd-item active">
+<li data-nav-id=/UNISTRA-DS-2022/01_networks/1_networks/ title="Basics Network Analysis" class=dd-item>
 <a href=/UNISTRA-DS-2022/01_networks/1_networks/>
 Basics Network Analysis
 <i class="fas fa-check read-icon"></i>
@@ -140,9 +140,24 @@ Network 2-Mode
 <i class="fas fa-bars"></i>
 </a>
 </span>
+<span id=toc-menu><i class="fas fa-list-alt"></i></span>
 <span class=links>
-<a href=/UNISTRA-DS-2022/>Network Analysis and NLP 2022</a> > <a href=/UNISTRA-DS-2022/01_networks/>Network Analysis</a> > Basics Network Analysis
+<a href=/UNISTRA-DS-2022/>Network Analysis and NLP 2022</a> > <a href=/UNISTRA-DS-2022/info/>Info, Schedule & Co</a> > Lecturers
 </span>
+</div>
+<div class=progress>
+<div class=wrapper>
+<nav id=TableOfContents>
+<ul>
+<li>
+<ul>
+<li><a href=#hahahugoshortcode-s0-hbhbdanielsh-sdsphd21imgdsh_headpng-daniel-s-hainhttpsvbnaaudkenpersons126725>HAHAHUGOSHORTCODE-s0-HBHB<a href=https://vbn.aau.dk/en/persons/126725><img src=/sdsphd21/img/dsh_head.png alt=danielsh> Daniel S. Hain</a></a></li>
+<li><a href=#hahahugoshortcode-s1-hbhbromanjsdsphd21imgrj_headjpg-roman-jurowetzkihttpsvbnaaudkenpersons125497>HAHAHUGOSHORTCODE-s1-HBHB<a href=https://vbn.aau.dk/en/persons/125497><img src=/sdsphd21/img/rj_head.jpg alt=romanj> Roman Jurowetzki</a></a></li>
+</ul>
+</li>
+</ul>
+</nav>
+</div>
 </div>
 </div>
 </div>
@@ -150,93 +165,24 @@ Network 2-Mode
 </div>
 <div id=body-inner>
 <h1>
-Basics Network Analysis
+Lecturers
 </h1>
-<div class="notices tip"><p>Use the tabs to access content. Theory part is general, R & Python application part language specific.</p>
-</div>
-<p>This session introduces unsupervised machine learning (UML)</p>
-<ul>
-<li><input checked disabled type=checkbox> <strong>Recommended Datacamp exercises:</strong>
-<ul>
-<li><a href=https://learn.datacamp.com/courses/introduction-to-network-analysis-in-python target=_blank>Introduction to network Analysis in Python</a></li>
-<li><a href=https://learn.datacamp.com/courses/network-analysis-in-r target=_blank>Introduction to network Analysis in R</a></li>
-</ul>
-</li>
-</ul>
-<div class=tab-panel>
-<div class=tab-nav>
-<button data-tab-item="Theory: Network Analysis" data-tab-group=default class="tab-nav-button btn active" onclick="switchTab('default','Theory: Network Analysis')">Theory: Network Analysis</button>
-<button data-tab-item="R Application - Network Analysis" data-tab-group=default class="tab-nav-button btn" onclick="switchTab('default','R Application - Network Analysis')">R Application - Network Analysis</button>
-<button data-tab-item="Python Application - Network Analysis" data-tab-group=default class="tab-nav-button btn" onclick="switchTab('default','Python Application - Network Analysis')">Python Application - Network Analysis</button>
-</div>
-<div class=tab-content>
-<div data-tab-item="Theory: Network Analysis" data-tab-group=default class="tab-item active">
-<h2>Video</h2>
-<div style=position:relative;padding-bottom:56.25%;height:0>
-<iframe src=https://www.loom.com/embed/307f388fbb3d4e73919250aa6eb535f0 frameborder=0 webkitallowfullscreen mozallowfullscreen allowfullscreen style=position:absolute;top:0;left:0;width:100%;height:100%></iframe>
-</div>
-<h2>Slides</h2>
-Use arrows keys on keyboard to navigate. Alternatively fullscreen slides <a href=https://sds-aau.github.io/SDS-master/M2/notebooks/network_analysis_theory.html target=_blank>available here</a>
-<div style=position:relative;padding-bottom:56.25%;height:0>
-<iframe src=https://sds-aau.github.io/SDS-master/M2/notebooks/network_analysis_theory.html frameborder=0 webkitallowfullscreen mozallowfullscreen allowfullscreen style=position:absolute;top:0;left:0;width:100%;height:115%></iframe>
-</div>
-</div>
-<div data-tab-item="R Application - Network Analysis" data-tab-group=default class=tab-item>
-<div>
-<h3>Follow along</h3>
-<ul>
-<li>
-<i class="fas fa-laptop-code"></i>
-<a href=https://sds-aau.github.io/SDS-master/M2/notebooks/network_analysis_application.nb.html target=_blank>HTML Notebook</a> </li>
-<li>
-<i class="fas fa-laptop-code"></i>
-<a href=https://colab.research.google.com/github/SDS-AAU/SDS-master/blob/master/M2/notebooks/network_analysis_application.ipynb target=_blank>Colab Notebook</a> </li>
-</ul>
-<h2>Video 1: Intro & Ecosystem</h2>
-<div style=position:relative;padding-bottom:56.25%;height:0>
-<iframe src=https://www.loom.com/embed/abe75a61d7374ae99f946e1a5829430e frameborder=0 webkitallowfullscreen mozallowfullscreen allowfullscreen style=position:absolute;top:0;left:0;width:100%;height:100%></iframe>
-</div>
-<h2>Video 2: Network Measures/h2>
-<div style=position:relative;padding-bottom:56.25%;height:0>
-<iframe src=https://www.loom.com/embed/981c493c990c46f591f465455a0d5bba frameborder=0 webkitallowfullscreen mozallowfullscreen allowfullscreen style=position:absolute;top:0;left:0;width:100%;height:100%></iframe>
-</div>
-<h2>Video 3: Mini-Case/h2>
-<div style=position:relative;padding-bottom:56.25%;height:0>
-<iframe src=https://www.loom.com/embed/9fc0c009945c4fb0b3aaa0be77f52707 frameborder=0 webkitallowfullscreen mozallowfullscreen allowfullscreen style=position:absolute;top:0;left:0;width:100%;height:100%></iframe>
-</div>
-</div>
-</div>
-<div data-tab-item="Python Application - Network Analysis" data-tab-group=default class=tab-item>
-<div>
-<h3>Follow along</h3>
-<ul>
-<li>
-<i class="fas fa-laptop-code"></i>
-<a href=https://github.com/SDS-AAU/SDS-master/blob/master/M2/notebooks/M2_Networks_hands_on_in_python.ipynb target=_blank>Colab Notebook</a> </li>
-</ul>
-<h2>Video 1: Intro & Ecosystem</h2>
-<div style=position:relative;padding-bottom:56.25%;height:0>
-<iframe src=https://www.loom.com/embed/e2a1e501c1474b70aaa64bad5257d635 frameborder=0 webkitallowfullscreen mozallowfullscreen allowfullscreen style=position:absolute;top:0;left:0;width:100%;height:100%></iframe>
-</div>
-<h2>Video 2: Network Measures</h2>
-<div style=position:relative;padding-bottom:56.25%;height:0>
-<iframe src=https://www.loom.com/embed/3556014c3e2b4fd39d675e05258f5041 frameborder=0 webkitallowfullscreen mozallowfullscreen allowfullscreen style=position:absolute;top:0;left:0;width:100%;height:100%></iframe>
-</div>
-<h2>Video 3: Mini-Case</h2>
-<div style=position:relative;padding-bottom:56.25%;height:0>
-<iframe src=https://www.loom.com/embed/75ed0b7f781a447991f28149bbe54c04 frameborder=0 webkitallowfullscreen mozallowfullscreen allowfullscreen style=position:absolute;top:0;left:0;width:100%;height:100%></iframe>
-</div>
-</div>
-</div>
-</div>
-</div>
+<h3 id=hahahugoshortcode-s0-hbhbdanielsh-sdsphd21imgdsh_headpng-daniel-s-hainhttpsvbnaaudkenpersons126725>
+<a id=danielsh></a><a href=https://vbn.aau.dk/en/persons/126725 target=_blank>&lt;img src="/sdsphd21/img/dsh_head.png" alt="danielsh"> Daniel S. Hain</a></h3>
+<p>Associate Professor in Innovation Studies and Data Science at Aalborg University.</p>
+<p>Having a background in engineering, I somehow became an economist, interested in the economics of technological change. Nowadays, my research is mainly centered around the application and development of computational methods to map, visualize, and analyze its causes and consequences. These methods range from traditional econometric modeling and agent-based simulation, over network and complex system modeling, to novel predictive modeling and deep learning techniques. Since 2018 together with Roman Jurowetzki, I am coordinating the <a href=https://www.sds.aau.dk/ target=_blank>Social Data Science specialization at AAU</a>, where we train business and social science students in the application of computational methods. In adittion, I am involved in a range of initiatives to promote the application of machine learning and artificial intelligence methods in social science and the private sector.</p>
+<hr>
+<h3 id=hahahugoshortcode-s1-hbhbromanjsdsphd21imgrj_headjpg-roman-jurowetzkihttpsvbnaaudkenpersons125497>
+<a id=romanj></a><a href=https://vbn.aau.dk/en/persons/125497 target=_blank>&lt;img src="/sdsphd21/img/rj_head.jpg" alt="romanj"> Roman Jurowetzki</a></h3>
+<p>Associate Professor in Innovation Studies and Data Science at Aalborg University.</p>
+<p>I come from a crossdisciplinary social science background. After my master in innovation economics I was rather frustrated by the underutilization of unstructured data in the field of my PhD project. This was until I discovered Natural Language Processing in 2013. I have been utilizing text and other unstructured data ever since in my research. Recently that has beeen research related to mapping and understanding of complex technological ecosystems. Since 2018 together with Daniel Hain, I am coordinating the <a href=https://www.sds.aau.dk/ target=_blank>Social Data Science specialization at AAU</a>, where we train business and social science students in the application of computational methods.</p>
 <footer class=footline>
 </footer>
 </div>
 </div>
 <div id=navigation>
-<a class="nav nav-prev" href=/UNISTRA-DS-2022/01_networks/ title="Network Analysis"> <i class="fa fa-chevron-left"></i></a>
-<a class="nav nav-next" href=/UNISTRA-DS-2022/01_networks/2_networks_intermediate/ title="Intermediate Network Analysis" style=margin-right:0><i class="fa fa-chevron-right"></i></a>
+<a class="nav nav-prev" href=/UNISTRA-DS-2022/info/01_infrastructure/ title=Infrastructure> <i class="fa fa-chevron-left"></i></a>
+<a class="nav nav-next" href=/UNISTRA-DS-2022/info/04_litetrature/ title="Literature & Resources" style=margin-right:0><i class="fa fa-chevron-right"></i></a>
 </div>
 </section>
 <div style=left:-1000px;overflow:scroll;position:absolute;top:-1000px;border:none;box-sizing:content-box;height:200px;margin:0;padding:0;width:200px>
