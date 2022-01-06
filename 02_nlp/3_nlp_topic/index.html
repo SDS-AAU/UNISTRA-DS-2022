@@ -6,7 +6,7 @@
 <meta name=description content="Networks and NLP 2022">
 <meta name=author content="Roman Jurowetzki & Daniel Hain">
 <link rel=icon href=/UNISTRA-DS-2022/images/favicon.png type=image/png>
-<title>Info, Schedule & Co :: Networks and NLP 2022</title>
+<title>Application: Vectorization and Topic Modelling :: Networks and NLP 2022</title>
 <link href=/UNISTRA-DS-2022/css/nucleus.css?1641477448 rel=stylesheet>
 <link href=/UNISTRA-DS-2022/css/fontawesome-all.min.css?1641477448 rel=stylesheet>
 <link href=/UNISTRA-DS-2022/css/hybrid.css?1641477448 rel=stylesheet>
@@ -20,7 +20,7 @@
 <script src=/UNISTRA-DS-2022/js/jquery-3.3.1.min.js?1641477448></script>
 <style>:root #header+#content>#left>#rlblock_left{display:none!important}</style>
 </head>
-<body data-url=/UNISTRA-DS-2022/info/>
+<body data-url=/UNISTRA-DS-2022/02_nlp/3_nlp_topic/>
 <nav id=sidebar class=showVisitedLinks>
 <div id=header-wrapper>
 <div id=header>
@@ -61,9 +61,7 @@ Assignment 2 - NLP
 </li>
 </ul>
 </li>
-<li data-nav-id=/UNISTRA-DS-2022/info/ title="Info, Schedule & Co" class="dd-item
-parent
-active">
+<li data-nav-id=/UNISTRA-DS-2022/info/ title="Info, Schedule & Co" class=dd-item>
 <a href=/UNISTRA-DS-2022/info/>
 Info, Schedule & Co
 <i class="fas fa-check read-icon"></i>
@@ -121,7 +119,8 @@ Network 2-Mode
 </li>
 </ul>
 </li>
-<li data-nav-id=/UNISTRA-DS-2022/02_nlp/ title="Natural Language Processing" class=dd-item>
+<li data-nav-id=/UNISTRA-DS-2022/02_nlp/ title="Natural Language Processing" class="dd-item
+parent">
 <a href=/UNISTRA-DS-2022/02_nlp/>
 Natural Language Processing
 <i class="fas fa-check read-icon"></i>
@@ -145,7 +144,7 @@ Application: Working with long text
 <i class="fas fa-check read-icon"></i>
 </a>
 </li>
-<li data-nav-id=/UNISTRA-DS-2022/02_nlp/3_nlp_topic/ title="Application: Vectorization and Topic Modelling" class=dd-item>
+<li data-nav-id=/UNISTRA-DS-2022/02_nlp/3_nlp_topic/ title="Application: Vectorization and Topic Modelling" class="dd-item active">
 <a href=/UNISTRA-DS-2022/02_nlp/3_nlp_topic/>
 Application: Vectorization and Topic Modelling
 <i class="fas fa-check read-icon"></i>
@@ -180,38 +179,65 @@ Application: Vectorization and Topic Modelling
 </a>
 </span>
 <span class=links>
-<a href=/UNISTRA-DS-2022/>Network Analysis and NLP 2022</a> > Info, Schedule & Co
-          
-        
-         
+<a href=/UNISTRA-DS-2022/>Network Analysis and NLP 2022</a> > <a href=/UNISTRA-DS-2022/02_nlp/>Natural Language Processing</a> > Application: Vectorization and Topic Modelling
 </span>
 </div>
 </div>
 </div>
 <div id=head-tags>
 </div>
-<div id=chapter>
 <div id=body-inner>
-<p>General info about the course.</p>
-<div class="notices note"><p>Content and voluntary exercises will be updated throughout the course, so check for updates.</p>
+<h1>
+Application: Vectorization and Topic Modelling
+</h1>
+<div class="notices note"><p>Use the tabs to access content. Theory part is general, R & Python application part language specific.</p>
 </div>
-<div class="notices info"><p>All content will be provided in the following format:</p>
-<ol>
-<li>Theoretical part</li>
-<li>Application (in both R and Python)</li>
-<li>Notebook of application (with code)</li>
-</ol>
+<div class=tab-panel>
+<div class=tab-nav>
+<button data-tab-item="R Application" data-tab-group=default class="tab-nav-button btn active" onclick="switchTab('default','R Application')">R Application</button>
+<button data-tab-item="Python Application" data-tab-group=default class="tab-nav-button btn" onclick="switchTab('default','Python Application')">Python Application</button>
 </div>
-<blockquote>
-</blockquote>
+<div class=tab-content>
+<div data-tab-item="R Application" data-tab-group=default class="tab-item active">
+<div>
+<h3>Follow along</h3>
+<ul>
+<li>
+<i class="fas fa-laptop-code"></i>
+<a href=https://sds-aau.github.io/SDS-master/M2/notebooks/NLP_text_vectorization_R.nb.html target=_blank>HTML Notebook</a> </li>
+</ul>
+<div style=position:relative;padding-bottom:56.25%;height:0>
+<iframe src=https://www.loom.com/embed/e9e054a738f3472983c905b1b739b9c3 frameborder=0 webkitallowfullscreen mozallowfullscreen allowfullscreen style=position:absolute;top:0;left:0;width:100%;height:100%></iframe>
+</div>
+</div>
+</div>
+<div data-tab-item="Python Application" data-tab-group=default class=tab-item>
+<div>
+<h3>Follow along</h3>
+<ul>
+<li>
+<i class="fas fa-laptop-code"></i>
+<a href=https://colab.research.google.com/github/SDS-AAU/SDS-master/blob/master/M2/notebooks/M2_NLP_TexVec_Py.ipynb target=_blank>Colab Notebook</a> </li>
+</ul>
+<h2>Video Ecosystem</h2>
+<div style=position:relative;padding-bottom:56.25%;height:0>
+<iframe src=https://www.loom.com/embed/64b94c41755b4a78bdfe354203c10104 frameborder=0 webkitallowfullscreen mozallowfullscreen allowfullscreen style=position:absolute;top:0;left:0;width:100%;height:100%></iframe>
+</div>
+<h2>Video Tutorial</h2>
+<div style=position:relative;padding-bottom:56.25%;height:0>
+<iframe src=https://www.loom.com/embed/3dc09124ae7a4525872384d13be3ec36 frameborder=0 webkitallowfullscreen mozallowfullscreen allowfullscreen style=position:absolute;top:0;left:0;width:100%;height:100%></iframe>
+</div>
+</div>
+</div>
+</div>
+</div>
 <footer class=footline>
 </footer>
 </div>
 </div>
-</div>
 <div id=navigation>
-<a class="nav nav-prev" href=/UNISTRA-DS-2022/00_exercises/exercise2/ title="Assignment 2 - NLP"> <i class="fa fa-chevron-left"></i></a>
-<a class="nav nav-next" href=/UNISTRA-DS-2022/info/01_infrastructure/ title=Infrastructure style=margin-right:0><i class="fa fa-chevron-right"></i></a>
+<a class="nav nav-prev" href=/UNISTRA-DS-2022/02_nlp/2_nlp_longtext/ title="Application: Working with long text"> <i class="fa fa-chevron-left"></i></a>
+<a class="nav nav-next" href=/UNISTRA-DS-2022/02_nlp/0_nlp_theory/ title="Natural Language Processing - Theory" style=margin-right:0><i class="fa fa-chevron-right"></i></a>
 </div>
 </section>
 <div style=left:-1000px;overflow:scroll;position:absolute;top:-1000px;border:none;box-sizing:content-box;height:200px;margin:0;padding:0;width:200px>
