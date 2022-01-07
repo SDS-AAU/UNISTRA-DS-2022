@@ -11,7 +11,7 @@ summary: "The team of lecturers."
 ![dsh](https://sds-aau.github.io/UNISTRA-DS-2022/images/dsh_head.png)
 
 Associate Professor in Innovation Studies and Data Science at Aalborg University. 
-E-mail: [roman@business.aau.dk]((mailto:dsh@business.aau.dk))
+E-mail: [dsh@business.aau.dk]((mailto:dsh@business.aau.dk))
 
 Daniel is an Associate Professor in Data Science & Innovation Economics at the Aalborg University Business School, where he leads the Data Science research track at the AI:Growth lab, and coordinates teaching at the Social Data Science (SDS) master specialization. His research is dedicated to the development and application of data-driven methods to map, understand, and predict technological change, and its causes and consequences for socioeconomic systems on various levels of aggregation. His current contextual focus is the dynamics of AI research and industry. 
 
