@@ -19,12 +19,12 @@ draft: true
 <div>
    <h3>Follow along</h3>
   <ul>
-    <li> {{< awesome fas fa-laptop-code >}} <a href="https://sds-aau.github.io/SDS-master/M2/notebooks/NLP_text_vectorization_R.nb.html" target="_blank">HTML Notebook</a> </li>
+    <li> {{< awesome fas fa-laptop-code >}} <a href="https://https://daniel-hain.github.io/ML_course_maastricht/notebooks/ML_case_technology.nb.html" target="_blank">HTML Notebook</a> </li>
   </ul>
 
-  {{< loom e9e054a738f3472983c905b1b739b9c3 >}}
-
-
+  {{< loom 1cfa629df60f452eb23dd44b307e9e57 >}}
+  
+Note: Re-Purposed  from another course
 
 </div>
 {{< /tab >}}
