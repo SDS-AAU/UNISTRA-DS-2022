@@ -1,17 +1,19 @@
 
 ---
-title: "Workshop 1 - Advanced Applications with NLP and Networks"
-weight: 3
+title: "Workshop 2 - Science-Patent Matching"
+weight: 4
 disableToc: true
 draft: false
 ---
 
-In this workshop we will explore some advanced applications that can be approached with NLP tooling and in combination with what you already know. That includes e.g. semantic networks, semantic search, recommender systems.
+Today we will be trying to build a science-patent linking pipeline.
+We will:
+- generate embeddin representations for academic abstracts and patent text
+- we will identify topics within scientific literature
+- generate search strings based on extracted keywords
+- search patent documents and identify related technologies
 
-
-To follow the case, please get an account at https://www.kaggle.com/ 
-
-We will be working with developing a Job Recommendation System based on different vectorisation and semantic search techniques.
+Data for the project [Download](https://sds-aau.github.io/SDS-AAU/UNISTRA-DS-2022/static/workshops/2021/sci_pat_match.zip)
 
 Follow the day one notebook here: [:::: HERE ::::](https://colab.research.google.com/github/SDS-AAU/UNISTRA-DS-2022/blob/master/static/workshops/2021/UNISTRA_w1_job_recommender.ipynb)
 
