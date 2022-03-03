@@ -2,5 +2,6 @@
 To follow the case, please get an account at https://www.kaggle.com/
 We will be working with developing a Job Recommendation System based on different vectorisation and semantic search techniques.
 Follow the day one notebook here: :::: HERE ::::</description></item><item><title>Workshop 2 - Science-Patent Matching</title><link>https://sds-aau.github.io/UNISTRA-DS-2022/03_workshops/02_workshop1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://sds-aau.github.io/UNISTRA-DS-2022/03_workshops/02_workshop1/</guid><description>Today we will be trying to build a science-patent linking pipeline. We will:
-generate embeddin representations for academic abstracts and patent text we will identify topics within scientific literature generate search strings based on extracted keywords search patent documents and identify related technologies Data for the project Download
-Follow the day one notebook here: :::: HERE ::::</description></item></channel></rss>
+generate embedding representations for academic abstracts and patent text we will identify topics within scientific literature using UMAP and HDBSCAN generate search strings based on extracted keywords (cTF-IDF) search patent documents and identify related technologies (Using Annoy) Data for the project Download
+Follow the day one notebook here: :::: HERE ::::
+Finished notebook (not well commented): :::: HERE ::::</description></item></channel></rss>
