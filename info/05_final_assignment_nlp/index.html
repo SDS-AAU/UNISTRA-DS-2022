@@ -6,7 +6,7 @@
 <meta name=description content="Networks and NLP 2022">
 <meta name=author content="Roman Jurowetzki & Daniel Hain">
 <link rel=icon href=/UNISTRA-DS-2022/images/favicon.png type=image/png>
-<title>Natural Language Processing - Theory :: Networks and NLP 2022</title><link href=/UNISTRA-DS-2022/css/nucleus.css?1646389397 rel=stylesheet>
+<title>NLP - Final Assignment :: Networks and NLP 2022</title><link href=/UNISTRA-DS-2022/css/nucleus.css?1646389397 rel=stylesheet>
 <link href=/UNISTRA-DS-2022/css/fontawesome-all.min.css?1646389397 rel=stylesheet>
 <link href=/UNISTRA-DS-2022/css/hybrid.css?1646389397 rel=stylesheet>
 <link href=/UNISTRA-DS-2022/css/featherlight.min.css?1646389397 rel=stylesheet>
@@ -17,7 +17,7 @@
 <link href=/UNISTRA-DS-2022/css/tabs.css?1646389397 rel=stylesheet>
 <link href=/UNISTRA-DS-2022/css/hugo-theme.css?1646389397 rel=stylesheet>
 <script src=/UNISTRA-DS-2022/js/jquery-3.3.1.min.js?1646389397></script>
-<style>:root #header+#content>#left>#rlblock_left{display:none!important}</style></head><body data-url=/UNISTRA-DS-2022/02_nlp/0_nlp_theory/>
+<style>:root #header+#content>#left>#rlblock_left{display:none!important}</style></head><body data-url=/UNISTRA-DS-2022/info/05_final_assignment_nlp/>
 <nav id=sidebar class=showVisitedLinks>
 <div id=header-wrapper>
 <div id=header>
@@ -51,7 +51,8 @@ Exercise 1 - Network Analysis
 Assignment 2 - NLP
 <i class="fas fa-check read-icon"></i>
 </a>
-</li></ul></li><li data-nav-id=/UNISTRA-DS-2022/info/ title="Info, Schedule & Co" class=dd-item>
+</li></ul></li><li data-nav-id=/UNISTRA-DS-2022/info/ title="Info, Schedule & Co" class="dd-item
+parent">
 <a href=/UNISTRA-DS-2022/info/>
 Info, Schedule & Co
 <i class="fas fa-check read-icon"></i>
@@ -72,7 +73,7 @@ Lecturers
 Literature & Resources
 <i class="fas fa-check read-icon"></i>
 </a>
-</li><li data-nav-id=/UNISTRA-DS-2022/info/05_final_assignment_nlp/ title="NLP - Final Assignment" class=dd-item>
+</li><li data-nav-id=/UNISTRA-DS-2022/info/05_final_assignment_nlp/ title="NLP - Final Assignment" class="dd-item active">
 <a href=/UNISTRA-DS-2022/info/05_final_assignment_nlp/>
 NLP - Final Assignment
 <i class="fas fa-check read-icon"></i>
@@ -103,14 +104,13 @@ Bonus - Network Visualization
 Network 2-Mode
 <i class="fas fa-check read-icon"></i>
 </a>
-</li></ul></li><li data-nav-id=/UNISTRA-DS-2022/02_nlp/ title="Natural Language Processing" class="dd-item
-parent">
+</li></ul></li><li data-nav-id=/UNISTRA-DS-2022/02_nlp/ title="Natural Language Processing" class=dd-item>
 <a href=/UNISTRA-DS-2022/02_nlp/>
 Natural Language Processing
 <i class="fas fa-check read-icon"></i>
 </a>
 <ul>
-<li data-nav-id=/UNISTRA-DS-2022/02_nlp/0_nlp_theory/ title="Natural Language Processing - Theory" class="dd-item active">
+<li data-nav-id=/UNISTRA-DS-2022/02_nlp/0_nlp_theory/ title="Natural Language Processing - Theory" class=dd-item>
 <a href=/UNISTRA-DS-2022/02_nlp/0_nlp_theory/>
 Natural Language Processing - Theory
 <i class="fas fa-check read-icon"></i>
@@ -168,39 +168,31 @@ Workshop 2 - Science-Patent Matching
 <i class="fas fa-bars"></i>
 </a>
 </span>
+<span id=toc-menu><i class="fas fa-list-alt"></i></span>
 <span class=links>
-<a href=/UNISTRA-DS-2022/>Network Analysis and NLP 2022</a> > <a href=/UNISTRA-DS-2022/02_nlp/>Natural Language Processing</a> > Natural Language Processing - Theory
+<a href=/UNISTRA-DS-2022/>Network Analysis and NLP 2022</a> > <a href=/UNISTRA-DS-2022/info/>Info, Schedule & Co</a> > NLP - Final Assignment
 </span>
-</div></div></div><div id=head-tags>
+</div><div class=progress>
+<div class=wrapper>
+<nav id=TableOfContents>
+<ul>
+<li><a href=#what-to-do>What to do?</a></li></ul></nav></div></div></div></div><div id=head-tags>
 </div><div id=body-inner>
 <h1>
-Natural Language Processing - Theory
-</h1><p>In this part you&rsquo;ll get a 100% code-free intro to (statistical) Natural Language Processing</p><ul>
-<li><input checked disabled type=checkbox> <strong>Recommended Datacamp exercises:</strong>
-<ul>
-<li><a href=https://learn.datacamp.com/courses/introduction-to-natural-language-processing-in-python target=_blank>Python</a> Intro to NLP</li><li><a href=https://learn.datacamp.com/courses/feature-engineering-for-nlp-in-python target=_blank>Python - also good</a> Feature Engineering for NLP in Python</li><li><a href=https://learn.datacamp.com/courses/introduction-to-natural-language-processing-in-r target=_blank>R</a> Introduction to Natural Language Processing in R</li></ul></li></ul><div class=tab-panel>
-<div class=tab-nav>
-<button data-tab-item="NLP intro - level of analysis" data-tab-group=default class="tab-nav-button btn active" onclick='switchTab("default","NLP intro - level of analysis")'>NLP intro - level of analysis</button>
-<button data-tab-item="Text representation" data-tab-group=default class="tab-nav-button btn" onclick='switchTab("default","Text representation")'>Text representation</button>
-<button data-tab-item="From BoW to Topic Modeling and Embeddings" data-tab-group=default class="tab-nav-button btn" onclick='switchTab("default","From BoW to Topic Modeling and Embeddings")'>From BoW to Topic Modeling and Embeddings</button>
-<button data-tab-item="(optional) History of NLP in Industry - Yoav Goldberg" data-tab-group=default class="tab-nav-button btn" onclick='switchTab("default","(optional) History of NLP in Industry - Yoav Goldberg")'>(optional) History of NLP in Industry - Yoav Goldberg</button>
-</div><div class=tab-content>
-<div data-tab-item="NLP intro - level of analysis" data-tab-group=default class="tab-item active">
-<div style=position:relative;padding-bottom:56.25%;height:0>
-<iframe src=https://www.loom.com/embed/289e4e0e91c24e759ae84a11cb06f78c frameborder=0 webkitallowfullscreen mozallowfullscreen allowfullscreen style=position:absolute;top:0;left:0;width:100%;height:100%></iframe>
-</div></div><div data-tab-item="Text representation" data-tab-group=default class=tab-item>
-<div style=position:relative;padding-bottom:56.25%;height:0>
-<iframe src=https://www.loom.com/embed/d97ba6e1e1a344899c83616b290cd888 frameborder=0 webkitallowfullscreen mozallowfullscreen allowfullscreen style=position:absolute;top:0;left:0;width:100%;height:100%></iframe>
-</div></div><div data-tab-item="From BoW to Topic Modeling and Embeddings" data-tab-group=default class=tab-item>
-<div style=position:relative;padding-bottom:56.25%;height:0>
-<iframe src=https://www.loom.com/embed/2a7b0791c906457cab0c57e0618dc68b frameborder=0 webkitallowfullscreen mozallowfullscreen allowfullscreen style=position:absolute;top:0;left:0;width:100%;height:100%></iframe>
-</div></div><div data-tab-item="(optional) History of NLP in Industry - Yoav Goldberg" data-tab-group=default class=tab-item>
-<div style=position:relative;padding-bottom:56.25%;height:0;overflow:hidden>
-<iframe src=https://www.youtube.com/embed/e12danHhlic style=position:absolute;top:0;left:0;width:100%;height:100%;border:0 allowfullscreen title="YouTube Video"></iframe>
-</div></div></div></div><footer class=footline>
+NLP - Final Assignment
+</h1><h2 id=what-to-do>What to do?</h2><ul>
+<li>
+<p>Outline a problem relevant within (evolutionary) economics, innovation studies, economic geography or related disciplines. Below some examples:</p><ul>
+<li>Science-Technology Linking</li><li>Literature mapping exercises</li><li>Prediction of financial indicators (from text)</li></ul></li><li>
+<p>Solve the problem (in part) using NLP methods</p></li><li>
+<p>Prepare a well commented notebook (R/Python) to present your work.</p></li><li>
+<p>You can work in groups.</p></li><li>
+<p>Submit work to Roman (<a href=mailto:roman@business.aau.dk>roman@business.aau.dk</a>) and/cc Daniel (<a href=mailto:dsh@business.aau.dk>dsh@business.aau.dk</a>)</p></li><li>
+<p>Deadline: 13/3; 23:59 🤓</p></li><li>
+<p>Please write if you have further questions.</p></li></ul><footer class=footline>
 </footer></div></div><div id=navigation>
-<a class="nav nav-prev" href=/UNISTRA-DS-2022/02_nlp/ title="Natural Language Processing"> <i class="fa fa-chevron-left"></i></a>
-<a class="nav nav-next" href=/UNISTRA-DS-2022/02_nlp/1_nlp_string/ title="Application: String Manipulation" style=margin-right:0><i class="fa fa-chevron-right"></i></a>
+<a class="nav nav-prev" href=/UNISTRA-DS-2022/info/04_litetrature/ title="Literature & Resources"> <i class="fa fa-chevron-left"></i></a>
+<a class="nav nav-next" href=/UNISTRA-DS-2022/01_networks/ title="Network Analysis" style=margin-right:0><i class="fa fa-chevron-right"></i></a>
 </div></section><div style=left:-1000px;overflow:scroll;position:absolute;top:-1000px;border:none;box-sizing:content-box;height:200px;margin:0;padding:0;width:200px>
 <div style=border:none;box-sizing:content-box;height:200px;margin:0;padding:0;width:200px></div></div><script src=/UNISTRA-DS-2022/js/clipboard.min.js?1646389397></script>
 <script src=/UNISTRA-DS-2022/js/perfect-scrollbar.min.js?1646389397></script>
