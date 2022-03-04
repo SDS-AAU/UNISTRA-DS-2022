@@ -13,7 +13,7 @@ To follow the case, please get an account at https://www.kaggle.com/
 
 We will be working with developing a Job Recommendation System based on different vectorisation and semantic search techniques.
 
-Follow the day one notebook here: [:::: HERE ::::](https://colab.research.google.com/github/SDS-AAU/UNISTRA-DS-2022/blob/master/static/workshops/2021/UNISTRA_w1_job_recommender.ipynb)
+Follow the day one notebook here: [link](https://colab.research.google.com/drive/1Sq6EzzlVyjWNSiE1xTJBJm8icTc5MQbn?usp=sharing)
 
 
 <!---
