@@ -6,6 +6,12 @@ weight: 6
 
 {{< rawhtml >}}
 
-<iframe src="https://dk-ai-map.herokuapp.com/"></iframe>
+<div>
+  <div style="position:relative;padding-top:56.25%;">
+
+<iframe src="https://dk-ai-map.herokuapp.com/" frameborder="0" ></iframe>
+
+  </div>
+</div>
 
 {{< /rawhtml >}}
